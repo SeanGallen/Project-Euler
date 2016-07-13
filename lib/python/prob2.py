@@ -1,4 +1,6 @@
-def fibNum(num):
+class FibNum:
+
+ def fibValue(num):
   if num == 0:
     return 0
   elif num == 1:
@@ -6,4 +8,9 @@ def fibNum(num):
   else:
     return fibNum(num-2) + fibNum(num-1)
 
-print(fibNum(20))
+
+def evenFibNum(fibIndex)
+
+
+
+print(fibNum(33))
