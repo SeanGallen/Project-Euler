@@ -16,4 +16,13 @@ def summation(input)
    input.reduce(:+)
 end
 
+range = 1..100
+input = 1..100
 
+
+squareVal = squares(range)
+sum = summation(input)
+result = summation(squareVal)
+squareSum = sum ** 2
+total = squareSum - result
+p total
